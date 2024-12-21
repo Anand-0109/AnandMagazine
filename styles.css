@@ -1,0 +1,52 @@
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar h1{
+            display: inline;
+           
+            float: inline-start;
+        }
+        .navbar a {
+            float: right;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .newsletter {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .newsletter-box {
+            border: 1px solid #ddd;
+            padding: 10px;
+            width: 22%;
+            text-align: center;
+        }
+        .newsletter-box img {
+            width: 100%;
+            height: auto;
+        }
+        .newsletter-box input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .newsletter-box button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+       
